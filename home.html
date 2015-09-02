@@ -18,9 +18,10 @@
         <link rel="stylesheet" href="css/product.css">
         <link rel="stylesheet" href="core/core.css">
         <script src="angular/ang-render/angular.min.js"></script>
-         <script src="angular/bootstrap/ui-bootstrap-tpls-0.9.0.js"></script>
+        <script src="angular/bootstrap/ui-bootstrap-tpls-0.9.0.js"></script>
         <script src="angular/angular-src/mainApp.js"></script>
         <script src="angular/angular-src/core-controller.js"></script>
+        <script src="js/main.js"></script>
         
         <!-- Gem style -->
         <script src="js/modernizr.js"></script>
@@ -167,94 +168,36 @@
 
 
 <!--@@@@@@@@@@@##home page end here@@##################################-->
-
-
-              <div class="row"> 
-              <a id="WhoWeAre"></a>
-                            <section id="cd-team" class="cd-section whoweare">
-                                <div class="cd-container" >
-                                    <h3>About Us</h3>
-                                    <ul>
-                                        <li>
-                                            <a href="#0" data-type="member-1" onclick="changeClassforBioView('member1')">
-                                                <figure>
-                                                    <img src="Images/ruchir.jpg" class="img-responsive profile_img" alt="Owner">
-                                                    <div class="cd-img-overlay"><span>View Detail description</span></div>
-                                                </figure>
-
-                                                <div class="cd-member-info">
-                                                    Ruchir Parsai <span>Passionate Photographer</span>
-                                                </div> <!-- cd-member-info -->
-                                            </a>
-                                        </li>
-
-                                        
-
-                                        <li>
-                                            <a href="#0" data-type="member-3" onclick="changeClassforBioView('member2')">
-                                                <figure>
-                                                    <img src="Images/rahul.jpg" class="img-responsive profile_img" alt="Owner">
-                                                    <div class="cd-img-overlay"><span>View Detail description</span></div>
-                                                </figure>
-
-                                                <div class="cd-member-info">
-                                                    Rahul Singh <span>Web Design</span>
-                                                </div> <!-- cd-member-info -->
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div> <!-- cd-container -->
-
-                            </section> <!-- cd-team -->
-
-                            <div class="cd-overlay">
-                                
+            
+        <div class="row"> 
+            <a id="WhoWeAre"></a>
+            <section id="cd-team" class="cd-section whoweare">
+                <div class="cd-container" >
+                    <h3>About Us</h3><br>
+                    <ul>
+                        <li>
+                        <figure class="img-responsive figure01">
+                            <div class="abtus_img01">
+                                <img src="Images/ruchir.jpg" class="img-responsive profile_img" alt="Owner"/>
                             </div>
-                      
-                    </div>
-
-
-                    <div class="cd-member-bio member-1" id="detailedView01">
-                        <div class="cd-member-bio-pict">
-                            <img src="Images/mem-bio-img-1.jpg" alt="Member Bio image" onclick="hideBioView('member1')">
-                        </div>
-                        <!-- cd-member-bio-pict -->
-
-                        <div class="cd-bio-content">
-                            <h1>Meet Ruchir Parsai</h1>
-                            <p>
-                                I am passionate photographer who wants to show the world, how beautiful things can be.
-To me Photography is not just clicking photos, but it is an "ART". 
-I always try to work on different ideas in every field of photography but have some what expertise myself in Potraiture,Pre/Post-birth,Pre-Wedding Shoots and Candid Photography.
-If you are open to explore new ideas, let us catch up over a cup of coffee and bring new ideas into execution!
+                           <div style="width:10%;"></div>
+                            <div class="abtus_sts01">
+                                <h3 style="height:70px;">Ruchir Parsai</h3>
+                                 <p>
+I am passionate photographer who wants to show the world, how beautiful things can be.To me Photography is not just clicking photos, but it is an "ART".I always try to work on different ideas in every field of photography but have some what expertise myself in Potraiture,Pre/Post-birth,Pre-Wedding Shoots and Candid Photography.If 
+you are open to explore new ideas, let us catch up over a cup of coffee and bring new ideas into execution!
                             </p> 
-                        </div>
-                       
-                    </div>
-                 
-
-                    <div class="cd-member-bio member-3" id="detailedView02">
-                        <div class="cd-member-bio-pict">
-                            <img src="Images/rahul.jpg" alt="Member Bio image" onclick="hideBioView('member2')">
-                        </div>
-                        <!-- cd-member-bio-pict -->
-
-                        <div class="cd-bio-content">
-                            <h1>Meet Rahul Singh</h1>
-                            <p>About Rahul Singh</p>
-                        </div>
-                        <!-- cd-bio-content -->
-                    </div>
-                    <!-- cd-member-bio -->
-                    <a href="#0" class="cd-member-bio-close"> Close</a>
-                    <!-- close the author bio section -->
-
-                    <script src="js/main.js"></script>
-                    <!-- Gem jQuery -->
-
-                </div>
-
-
+                            </div>
+                           
+                                                    </figure>
+                    </li>
+                    </ul>
+                </div> <!-- cd-container -->
+            </section> <!-- cd-team -->
+            <div class="cd-overlay">         
+            </div>
+                      
+        </div>
 <!--##############################-our product list start from here-->
                 <a id="What_We_Offer"></a>
                 <div class="row" id="WhatWeOffer">
@@ -266,7 +209,9 @@ If you are open to explore new ideas, let us catch up over a cup of coffee and b
                                 </div>
                                 <div class="col-md-4 col-sm-6 products ">
                                     <h2>
-                                        <a><span class="glyphicon glyphicon-stats"></span></a>&nbsp;&nbsp;Maternity (Pre/Post Birth)</h2>
+                                        <a><span class="glyphicon glyphicon-stats"></span></a>&nbsp;&nbsp;
+
+                                        Maternity (Pre/Post Birth)</h2>
                                     <p>
                                         
                                     </p>
@@ -290,7 +235,7 @@ If you are open to explore new ideas, let us catch up over a cup of coffee and b
 
                                 <div class="col-md-4 col-sm-6 products ">
                                     <h2>
-                                        <a><span class="glyphicon glyphicon-fire"></span></a>&nbsp;&nbsp;Randoms</h2>
+                                        <a><span class="glyphicon glyphicon-fire"></span></a>&nbsp;&nbsp;Product Photography</h2>
                                      <p>
                                         
                                     </p>
@@ -298,17 +243,15 @@ If you are open to explore new ideas, let us catch up over a cup of coffee and b
 
                                 <div class="col-md-4 col-sm-6 products  ">
                                     <h2>
-                                        <a><span class="glyphicon glyphicon-bullhorn"></span></a>&nbsp;&nbsp;Streets</h2>
+                                        <a><span class="glyphicon glyphicon-bullhorn"></span></a>&nbsp;&nbsp;Fashion</h2>
                                     <p>
-                                       
                                     </p>
                                 </div>
 
                                 <div class="col-md-4 col-sm-6 products  ">
                                     <h2>
-                                        <a><span class="glyphicon glyphicon-time"></span></a>&nbsp;&nbsp;Landscapes</h2>
-                                   <p>
-                                   
+                                        <a><span class="glyphicon glyphicon-time"></span></a>&nbsp;&nbsp;Events</h2>
+                                   <p>                                   
                                     </p>
                                 </div>
 
@@ -340,7 +283,6 @@ If you are open to explore new ideas, let us catch up over a cup of coffee and b
                     </address>
                 </div>
             </div>
-
             <div>
                 <iframe class="" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" height="200" src="https://maps.google.com/maps?hl=en&amp;q=saki naka Andheri (East),mumbai&amp;ie=UTF8&amp;t=m&amp;z=6&amp;iwloc=B&amp;output=embed"></iframe>
             </div>
@@ -358,6 +300,4 @@ If you are open to explore new ideas, let us catch up over a cup of coffee and b
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-
-
 </html>

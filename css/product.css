@@ -99,14 +99,15 @@
 .whoweare  h3{
             font-size:36px;
             text-align:center;
-			padding-top:50px;
-            padding-bottom:50px;
+			padding-top:20px;
+            height: 60px;
+            padding-bottom:10px;
         }
 		.gallary h3 {
             font-size:36px;
             text-align:center;
-			padding-top:50px;
-            padding-bottom:50px;
+			padding-top:10px;
+            padding-bottom:0px;
         }
         .contact_us {
         text-align:left;
@@ -143,7 +144,22 @@
          margin-top:20px;
          margin-bottom:20px;
         }
-        
-  .hidethistag{
+
+          .hidethistag{
     visibility: hidden;
+  }
+  .figure01{
+    width: 100%;
+    height: 100%;
+  }
+  .abtus_img01{
+    width: 30%;
+    height: 100%;
+    float: left;
+  }
+  .abtus_sts01{
+    width:60%;
+    height: 100%;
+    margin-left: 310px;
+    text-align:-webkit-auto;
   }

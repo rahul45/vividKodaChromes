@@ -42,7 +42,8 @@ function hideBioView(param1){
 	console.log("----------------------"+param1);
 	document.getElementById("detailedView01").className = "hidethistag";
 	console.log("hii tthere********");
-}
+	}
+
 	if(param1 == "member2"){
 	console.log("----------------------"+param1);
 	document.getElementById("detailedView02").className = "hidethistag";
@@ -53,8 +54,10 @@ function hideBioView(param1){
 function changeClassforBioView(param2){
 	if(param2 == "member1"){
 	document.getElementById("detailedView01").className = "cd-member-bio member-1";
-} 
+	document.getElementById("detailedView02").className = "hidethistag";
+	} 
 if(param2 == "member2"){
 	document.getElementById("detailedView02").className = "cd-member-bio member-3";
-} 
+	document.getElementById("detailedView01").className = "hidethistag";
+	} 
 };

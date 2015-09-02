@@ -64,7 +64,7 @@ img {
 
 /* -------------------------------- 
 
-
+Modules - reusable parts of our design
 
 -------------------------------- */
 .cd-container {
@@ -180,6 +180,8 @@ main.slide-out .cd-overlay {
     line-height: 1.8;
     font-size: 18px;
     font-size: 1.125rem;
+    margin-left: 50px;
+    text-align: justify;
   }
 }
 
@@ -239,6 +241,7 @@ header p {
 #cd-team img {
   display: block;
   width: 100%;
+
   border-radius: .25em .25em 0 0;
 }
 #cd-team .cd-img-overlay {
@@ -287,7 +290,7 @@ header p {
 }
 @media only screen and (min-width: 768px) {
   #cd-team li {
-    width: 31%;
+    width: 100%;
     float: left;
     margin-right: 3.5%;
   }
@@ -534,6 +537,6 @@ xkeyframes
     margin-top: -36px;
 }
 .profile_img{
-  height: 250px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
 }
