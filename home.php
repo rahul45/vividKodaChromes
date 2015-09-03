@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>VividKodaChromes</title>
-
         <!-- Bootstrap -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif' rel='stylesheet' type='text/css'>
@@ -22,7 +21,6 @@
         <script src="angular/angular-src/mainApp.js"></script>
         <script src="angular/angular-src/core-controller.js"></script>
         <script src="js/main.js"></script>
-        
         <!-- Gem style -->
         <script src="js/modernizr.js"></script>
         <!-- Modernizr -->
@@ -183,13 +181,13 @@
                            <div style="width:10%;"></div>
                             <div class="abtus_sts01">
                                 <h3 style="height:70px;">Ruchir Parsai</h3>
-                                 <p>
+                                 <p class="">
 I am passionate photographer who wants to show the world, how beautiful things can be.To me Photography is not just clicking photos, but it is an "ART".I always try to work on different ideas in every field of photography but have some what expertise myself in Potraiture,Pre/Post-birth,Pre-Wedding Shoots and Candid Photography.If 
 you are open to explore new ideas, let us catch up over a cup of coffee and bring new ideas into execution!
                             </p> 
                             </div>
                            
-                                                    </figure>
+                       </figure>
                     </li>
                     </ul>
                 </div> <!-- cd-container -->

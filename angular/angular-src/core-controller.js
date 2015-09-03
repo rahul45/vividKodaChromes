@@ -3,7 +3,7 @@ angular.module("coreModule",[]).controller("core_controller",function($scope,$ro
   
     $scope.toggleModal = function (modelName) {
         var modalInstance = $modal.open({
-        templateUrl: 'core/'+modelName+'.html',
+        templateUrl: 'core/'+modelName+'.php',
         scope: $scope,
         backdrop: 'static',
         resolve: {
@@ -23,7 +23,7 @@ angular.module("coreModule",[]).controller("core_controller",function($scope,$ro
 
         }
     }, function () {
-        console.log(' cancel Modal dismissed at: ' + new Date());
+        console.log('cancel Modal dismissed at: ' + new Date());
     });
 //       
     };
