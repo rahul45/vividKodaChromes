@@ -23,7 +23,7 @@ angular.module("coreModule",[]).controller("core_controller",function($scope,$ro
 
         }
     }, function () {
-        console.log('cancel Modal dismissed at: ' + new Date());
+        console.log(' cancel Modal dismissed at: ' + new Date());
     });
 //       
     };

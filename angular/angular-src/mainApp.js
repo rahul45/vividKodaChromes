@@ -2,7 +2,7 @@ var vividKodaChromes=angular.module("vividkoda",['coreModule','ui.bootstrap']);
 
 vividKodaChromes.controller("contact_form_controller",function($scope,$http){
 	$scope.submitQuery=function(){
-		console.log("message............."+ $scope.query.message);
+		//console.log("message............."+ $scope.query.message);
 	/*	app.controller('sign_up', function ($scope, $http) {*/
 /*
 * This method will be called on click event of button.

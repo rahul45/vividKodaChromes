@@ -238,10 +238,10 @@ header p {
 #cd-team figure {
   position: relative;
 }
-#cd-team img {
-  display: block;
-  width: 100%;
 
+#cd-team img {
+  display: -webkit-inline-box;
+  width: 300px;
   border-radius: .25em .25em 0 0;
 }
 #cd-team .cd-img-overlay {
@@ -535,8 +535,4 @@ xkeyframes
     height: 71px;
     width: 194px;
     margin-top: -36px;
-}
-.profile_img{
-  height: 100%;
-  width: 100%;
 }

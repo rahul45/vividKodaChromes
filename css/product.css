@@ -148,18 +148,28 @@
           .hidethistag{
     visibility: hidden;
   }
-  .figure01{
-    width: 100%;
-    height: 100%;
-  }
-  .abtus_img01{
-    width: 30%;
-    height: 100%;
-    float: left;
-  }
-  .abtus_sts01{
-    width:60%;
-    height: 100%;
-    margin-left: 310px;
-    text-align:-webkit-auto;
-  }
+
+@media only screen and (max-width: 500px) {
+    #abtus01img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (min-width: 150px){
+     #abtus01img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.imgow01{
+    width: 300px;
+    height: 200px;
+}
+.para{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 20px;
+    margin-right: 20px;
+    padding: 3px 3px 3px;
+}
+  

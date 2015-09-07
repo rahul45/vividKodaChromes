@@ -16,5 +16,6 @@
     echo $shoot_date;//this will go back under "data" of angular call.
     /*
      * You can use $email and $pass for further work. Such as Database calls.
-    */    
+    */ 
+   /* https://www.codementor.io/angularjs/tutorial/angularjs-calendar-directives-less-cess-moment-font-awesome*/  
 ?>

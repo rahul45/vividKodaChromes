@@ -174,21 +174,17 @@
                     <h3>About Us</h3><br>
                     <ul>
                         <li>
-                        <figure class="img-responsive figure01">
-                            <div class="abtus_img01">
-                                <img src="Images/ruchir.jpg" class="img-responsive profile_img" alt="Owner"/>
+                            <div id="abtus01img"><img src="Images/ruchir.jpg" class="img-responsive imgow01" alt="Owner"/>
+
                             </div>
-                           <div style="width:10%;"></div>
-                            <div class="abtus_sts01">
-                                <h3 style="height:70px;">Ruchir Parsai</h3>
-                                 <p class="">
-I am passionate photographer who wants to show the world, how beautiful things can be.To me Photography is not just clicking photos, but it is an "ART".I always try to work on different ideas in every field of photography but have some what expertise myself in Potraiture,Pre/Post-birth,Pre-Wedding Shoots and Candid Photography.If 
-you are open to explore new ideas, let us catch up over a cup of coffee and bring new ideas into execution!
-                            </p> 
-                            </div>
-                           
-                       </figure>
-                    </li>
+                            <div> 
+                                 <h3 style="height:70px;">Ruchir Parsai</h3>
+                            &nbsp;&nbsp;<p class="para">
+"I am passionate photographer who wants to show the world, how beautiful things can be.To me Photography is not just clicking photos, but it is an "ART".I always try to work on different ideas in every field of photography but have some what expertise myself in Potraiture,Pre/Post-birth,Pre-Wedding Shoots and Candid Photography.If 
+you are open to explore new ideas, let us catch up over a cup of coffee and bring new ideas into execution!"
+                            </p> &nbsp;&nbsp;</div>
+                        </li>
+
                     </ul>
                 </div> <!-- cd-container -->
             </section> <!-- cd-team -->
