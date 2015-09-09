@@ -42,8 +42,8 @@
             <nav role="navigation" class="navbar navbar-default navbar-fixed-top" style="background-color: black; margin-bottom: 0px;">
                 <div class="container-fluid" ng-controller="core_controller">
 
-                    <div class="navbar-header">
-                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <div class="navbar-header" >
+                        <button type="button" ng-click ="changeshow()" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -54,7 +54,7 @@
                        </a>
                     </div>
 
-                    <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <div id="navbarCollapse" class="collapse navbar-collapse" ng-click="ulclick('list')" ng-show="shownavMenu">
 
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#Home" style="color: white;">Home</a></li>
